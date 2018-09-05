@@ -14,10 +14,13 @@ h = HTMLParser.HTMLParser()
 
 
 def cleanhtml(raw_html):
-    raw_html = h.unescape(raw_html)
-    raw_html = raw_html.replace("&nbsp;", u" ")
-    cleanr = re.compile('<.*?>')
-    cleantext = re.sub(cleanr, '', raw_html)
+    cleantext = raw_html
+    if raw_html is not None:
+        raw_html = h.unescape(raw_html)
+        raw_html = raw_html.replace("&nbsp;", u" ")
+        cleanr = re.compile('<.*?>')
+        cleantext = re.sub(cleanr, '', raw_html)
+        cleantext = cleantext.strip().replace("\t", " ").replace("  ", " ").replace("\r", "\n").replace("\n\n", "\n")
     return cleantext
 
 
@@ -54,7 +57,7 @@ def convert_Moodle_XML_to_quiz(params):
 
         if params["model_filter"] == "all":
             # params["model_filter"] = ["cloze", "multichoice", "matching"]
-            params["model_filter"] = ["cloze"]
+            params["model_filter"] = ["cloze", "multichoice", "truefalse", "gapselect", "shortanswer", "ddwtos"]
 
         for qnum, question in enumerate(root):
             param_export = None
@@ -62,12 +65,14 @@ def convert_Moodle_XML_to_quiz(params):
 
             if question_type == "category":
                 cat_structure = question.find('category').find('text').text.strip()
-                cat_structure = cat_structure.replace(" ", "_").replace(".", "_")
-                # On s'assure que les accents sont bien en unicode.
-
                 # sur Moodle, la categorie "$course$" est un mot réservé qui fait référence au cours courant.
                 cat_structure = cat_structure.replace("../", "").replace("$course$/", "")
+                for caractere in ["$", "+", "\\", ">", "<", "|", "?", ":", "*", "#", "\"", "~", " ", "."]:
+                    cat_structure = cat_structure.replace(caractere, "_")
+
+                # On s'assure que les accents sont bien en unicode.
                 cat_structure = cat_structure.encode("utf-8")
+
                 # cat_structure = cat_structure.split('/')
                 current_folder = "results/%s" % cat_structure
                 if not os.path.exists(current_folder):
@@ -82,7 +87,7 @@ def convert_Moodle_XML_to_quiz(params):
                     # Plus d'infos sur ce type ici : https://docs.moodle.org/3x/fr/Question_cloze_%C3%A0_r%C3%A9ponses_int%C3%A9gr%C3%A9es
                     # LOG.info("----- Nouvelle question de type 'cloze' (%s) -----" % question_dict["title"])
                     # modele_export = "texteatrous"
-                    template_file = "templates/Opale36/TaT.quiz"
+                    template_file = "templates/Opale36/TaT2.quiz"
                     donnees = question.find('questiontext').find('text').text
                     donnees = cleanhtml(donnees)
                     feedbacks = {"good_reps": [], "bad_reps": []}
@@ -94,8 +99,10 @@ def convert_Moodle_XML_to_quiz(params):
                     matches = re.finditer(pattern_trous, donnees)
                     for match in matches:
                         trou = match.group(1)
-                        good_reps = []
+                        good_rep = ['']
                         bad_reps = []
+                        placesynonymes = ''
+                        synonymes = []
                         parsed_trou = trou.split(":", 3)
                         # nb_points = parsed_trou[0]
                         type_trou = parsed_trou[1]
@@ -126,23 +133,26 @@ def convert_Moodle_XML_to_quiz(params):
                                 else:
                                     if len(rep) > 1:
                                         feedbacks["good_reps"].append(rep[1])
-                                    good_reps.append(rep[0])
-
-                            # [TODO] ICI Si plus d'un élément dans good reps, traiter les synonymes
-                            good_rep = "[SYNONYME ?]".join(good_reps)
-                            if len(good_reps) > 1:
-                                # On utilise les accolades aléatoires (une des bonnes réponses sera piochée au hasard)
-                                good_rep = "{%s}" % (good_rep)
-
+                                    if good_rep[0] != '':
+                                        synonymes.append(rep[0])
+                                    else:
+                                        good_rep = [rep[0]]
                             # syntaxe Opale pour multichoix :
                             #   <op:gapM><sp:options><sp:option>BONchoix</sp:option><sp:option>MAUVAISchoix1</sp:option></sp:options></op:gapM>BONchoix
-                            options = good_reps + bad_reps
+                            options = good_rep + bad_reps + synonymes
                             shuffle(options)
-                            trou = "<op:gapM><sp:options>"
-                            for reponse in options :
+                            trou = "<sp:options>"
+                            for reponse in options:
                                 trou = "%s<sp:option>%s</sp:option>" % (trou, reponse)
-                            # transforme la liste "options" en chaine de caractères :
-                            trou = "%s</sp:options></op:gapM>%s" % (trou, good_rep)
+                            trou = "%s</sp:options>" % (trou)
+                            if len(synonymes) > 0:
+                                placesynonymes = "<sp:synonyms>"
+                                for synonyme in synonymes:
+                                    placesynonymes = "%s<sp:synonym>%s</sp:synonym>" % (placesynonymes, synonyme)
+                                placesynonymes = "%s</sp:synonyms>" % (placesynonymes)
+                            else:
+                                placesynonymes = ''
+                            donnees = donnees.replace(match.group(), "<sc:textLeaf role='gap'><op:gapM>%s%s</op:gapM>%s</sc:textLeaf>" % (placesynonymes, trou, good_rep[0]))
 
                         elif "SHORTANSWER" in type_trou or "SA" in type_trou:
                             # exemple : {1:SHORTANSWER:=réponse attendue#bonne réponse~*#rétroaction pour toute autre réponse}
@@ -151,16 +161,18 @@ def convert_Moodle_XML_to_quiz(params):
                                 if rep[0].startswith("="):
                                     # on retire le "=" indiquant la seule bonne réponse
                                     trou = rep[0][1:]
+                                    good_rep.append(rep[0][1:])
                                     if len(rep) > 1:
                                         feedbacks["good_reps"].append(rep[1])
                                 elif len(rep) > 1:
                                         feedbacks["bad_reps"].append(rep[1])
+                            donnees = donnees.replace(match.group(), "<sc:textLeaf role='gap'>%s</sc:textLeaf>" % (trou))
 
                         else:
                             print("----- ATTENTION : cloze with unrecognized TYPE!! (%s) -----" % trou)
                             message = u"----- ATTENTION : cloze with unrecognized TYPE! (%s) -----" % trou
                             print(message)
-                        donnees = donnees.replace(match.group(), "<sc:textLeaf role='gap'>%s</sc:textLeaf>" % trou)
+                            print (good_rep[0])
 
                     for feedback_type in ['generalfeedback', 'correctfeedback', 'incorrectfeedback', 'partiallycorrectfeedback']:
                         match = question.find(feedback_type)
@@ -186,67 +198,386 @@ def convert_Moodle_XML_to_quiz(params):
                         list_order = int(shuffleanswers.text) + 1
                     else:
                         list_order = 1
-                    """
+                    #
                     feedback_bon = feedbacks['correctfeedback']
                     if len(feedbacks["good_reps"]) > 0:
-                        feedback_bon = "%s<div>indications spécifiques:%s</div>" % (feedback_bon, "<br/>".join(feedbacks["good_reps"]))
+                        feedback_bon = u"%s<div>indications spécifiques:%s</div>" % (feedback_bon, "<br/>".join(feedbacks["good_reps"]))
                     feedback_mauvais = feedbacks['incorrectfeedback']
                     if len(feedbacks["bad_reps"]) > 0:
-                        feedback_mauvais = "%s<div>indications spécifiques:%s</div>" % (feedback_mauvais, "<br/>".join(feedbacks["bad_reps"]))
+                        feedback_mauvais = u"%s<div>indications spécifiques:%s</div>" % (feedback_mauvais, "<br/>".join(feedbacks["bad_reps"]))
+                    """
+                    #
                     # concatenation tous les feedback en un seul :
                     explication = ''
                     for feedback_type in ['generalfeedback', 'correctfeedback', 'incorrectfeedback', 'partiallycorrectfeedback']:
                         if feedbacks[feedback_type]:
                             explication = "%s<sp:txt><op:txt><sc:para xml:space='preserve'>%s</sc:para></op:txt></sp:txt>" % (explication, feedbacks[feedback_type])
+                    if explication != '':
+                        explication = "<sc:globalExplanation><op:res>%s</op:res></sc:globalExplanation>" % (explication)
                     param_export = {"title"      : question_dict["title"].encode("utf-8"),
                                     "donnees"    : donnees.encode("utf-8"),
                                     "explication": explication.encode("utf-8")
                                     }
                     nb_exos += 1
 
+#
+#   Question de type "Choix Multiple"
+#
                 elif question_type == "multichoice":
                     # TODO : preliminary DRAFT only
                     print("----- Nouvelle question de type 'multichoice' -----")
-
-                    template_file = "templates/Opale36/QCM.quiz"
-                    question_dict = {"good_rep": [],
-                                     "bad_rep":  []}
-                    for answer in question.find('answers'):
-                        answer_text = answer.find('text').text
-                        if answer_text:
-                            answer_text = answer_text.replace("&#x2019;", "'")
-                            if int(answer.find("correct").text):
-                                question_dict["good_rep"].append(h.unescape(answer_text).encode("utf-8"))
+                    # Plus d'infos sur ce type ici : https://docs.moodle.org/3x/fr/Question_%C3%A0_choix_multiples
+                    # LOG.info("----- Nouvelle question de type 'choix multiples' (%s) -----" % question_dict["title"])
+                    template_file = "templates/Opale36/qcm.quiz"
+                    # modele_export = "question à choix multiples"
+                    #
+                    donnees = question.find('questiontext').find('text').text
+                    donnees = cleanhtml(donnees)
+                    #
+                    feedbacks = {"good_reps": [], "bad_reps": []}
+                    #
+                    #
+                    # rammassage des réponses et de l'indicateur de bonne réponse
+                    # puis construction des réponses scenari
+                    #
+                    listereponses = ''
+                    for balise in question :
+                        if balise.tag == "answer":
+                            #  liste_reponses_possibles.append(balise.find('text').text)
+                            fraction = balise.get("fraction")
+                            reponse = balise.find('text').text
+                            if fraction > "0":
+                                check = "checked"
                             else:
-                                question_dict["bad_rep"].append(h.unescape(answer_text).encode("utf-8"))
+                                check = "unchecked"
 
-                    enonce = question.find('questiontext').find('text').text
-                    # test the questiontext format ? html ?
+                            reponse = cleanhtml(reponse)
+                            listereponses = u"%s<sc:choice solution='%s'><sc:choiceLabel><op:txt><sc:para xml:space='preserve'>%s\
+                                        </sc:para></op:txt></sc:choiceLabel></sc:choice>" % (listereponses, check, reponse)
 
-                    # if "#x2019;" in enonce:
-                    #    print enonce
-                    enonce = enonce.replace("&#x2019;", "'")
+                    for feedback_type in ['generalfeedback', 'correctfeedback', 'incorrectfeedback', 'partiallycorrectfeedback']:
+                        match = question.find(feedback_type)
+                        if match is not None:
+                            # ici tester si match.format = 'html' ?
+                            # moodle formats : html (default), moodle_auto_format, plain_text et markdown
+                            feedbacks[feedback_type] = match.find('text').text
+                            if feedbacks[feedback_type] is None:
+                                feedbacks[feedback_type] = ""
+                            else:
+                                feedbacks[feedback_type] = cleanhtml(feedbacks[feedback_type])
+                        else:
+                            feedbacks[feedback_type] = ""
 
-                    param_export = {"title":            question_dict["title"],
-                                    "enonce":           h.unescape(enonce).encode("utf-8"),
-                                    "bonnesrep":        "\n".join(question_dict["good_rep"]),
-                                    "mauvaisesrep":     "\n".join(question_dict["bad_rep"]),
-                                    "tot":              "5",
-                                    "givetrue":         "2",
-                                    "minfalse":         "0",
-                                    "options":          ["checkbox", "split"],
-                                    "feedback_general": "",
-                                    "feedback_bon":     "",
-                                    "feedback_mauvais": ""
+                    # on supprime les feedbacks redondant avec ceux de Scenari :
+                    feedbacks['correctfeedback'] = feedbacks['correctfeedback'].replace(u"Votre réponse est correcte.", "")
+                    feedbacks['incorrectfeedback'] = feedbacks['incorrectfeedback'].replace(u"Votre réponse est incorrecte.", "")
+                    feedbacks['partiallycorrectfeedback'] = feedbacks['partiallycorrectfeedback'].replace(u"Votre réponse est partiellement correcte.", "")
+
+                    explication = ''
+                    for feedback_type in ['generalfeedback', 'correctfeedback', 'incorrectfeedback', 'partiallycorrectfeedback']:
+                        if feedbacks[feedback_type]:
+                            explication = "%s%s" % (explication, feedbacks[feedback_type])
+                    if explication != '':
+                        explication = "<sc:globalExplanation><op:res><sp:txt><op:txt><sc:para xml:space='preserve'>%s</sc:para></op:txt></sp:txt></op:res></sc:globalExplanation>" % (explication)
+
+                    param_export = {"title"           :      question_dict["title"].encode("utf-8"),
+                                    "enonce"          :      (donnees).encode("utf-8"),
+                                    "listereponses"   :      (listereponses).encode("utf-8"),
+                                    "explication"     :      (explication).encode("utf-8")
+                                    }
+                    nb_exos += 1
+#
+#
+#   Question de type "categorisation"
+#
+                elif question_type == "matching":
+                    # [TODO] : preliminary DRAFT only
+                    # seulement 2 a transferer donc, question non traitée ici sera transférée manuellement
+                    print("----- Nouvelle question de type 'matching' [preliminary DRAFT only !!] -----")
+                    template_file = "templates/Opale36/categorisation.quiz"
+#
+#
+#   Question de type "glisser-déposer sur le texte"
+#
+                elif question_type == "ddwtos" :
+                    print("----- Nouvelle question de type 'glisser-déposer sur le texte' -----")
+                    template_file = "templates/Opale36/TaT2.quiz"
+                    # Plus d'infos sur ce type ici : https://docs.moodle.org/3x/fr/Question_glisser-d%C3%A9poser_sur_texte
+                    # LOG.info("----- Nouvelle question de type 'glisser déposer' (%s) -----" % question_dict["title"])
+                    # modele_export = "texteatrous"
+                    donnees = question.find('questiontext').find('text').text
+                    donnees = cleanhtml(donnees)
+                    feedbacks = {"good_reps": [], "bad_reps": []}
+
+                    pattern_trous = r"\[\[([1-9])\]\]"
+                    liste_reponses_possibles = []
+                    for balise in question :
+                        if balise.tag == "dragbox" :
+                            liste_reponses_possibles.append(balise.find('text').text)
+
+                    matches = re.finditer(pattern_trous, donnees)
+                    for match in matches:
+                        numero_bonne_reponse = match.group(1)
+                        good_rep = liste_reponses_possibles[int(numero_bonne_reponse) - 1]
+                        trou = "<op:gapM><sp:options>"
+                        for reponse in liste_reponses_possibles:
+                            trou = "%s<sp:option>%s</sp:option>" % (trou, reponse)
+                        # transforme la liste "options" en chaine de caractères :
+                        trou = "%s</sp:options></op:gapM>" \
+                               "%s" % (trou, good_rep)
+
+                        donnees = donnees.replace(match.group(), "<sc:textLeaf role='gap'>%s</sc:textLeaf>" % trou)
+
+                    for feedback_type in ['generalfeedback', 'correctfeedback', 'incorrectfeedback', 'partiallycorrectfeedback']:
+                        tous_les_feedbacks_question = question.find(feedback_type)
+                        if tous_les_feedbacks_question is not None:
+                            # ici tester si match.format = 'html' ?
+                            # moodle formats : html (default), moodle_auto_format, plain_text et markdown
+                            feedbacks[feedback_type] = tous_les_feedbacks_question.find('text').text
+                            if feedbacks[feedback_type] is None:
+                                feedbacks[feedback_type] = ""
+                            else:
+                                feedbacks[feedback_type] = cleanhtml(feedbacks[feedback_type])
+                        else:
+                            feedbacks[feedback_type] = ""
+
+                    feedbacks['correctfeedback'] = feedbacks['correctfeedback'].replace(u"Votre réponse est correcte.", "")
+                    feedbacks['incorrectfeedback'] = feedbacks['incorrectfeedback'].replace(u"Votre réponse est incorrecte.", "")
+                    feedbacks['partiallycorrectfeedback'] = feedbacks['partiallycorrectfeedback'].replace(u"Votre réponse est partiellement correcte.", "")
+                    # concatenation tous les feedback en un seul :
+                    explication = ''
+                    for feedback_type in ['generalfeedback', 'correctfeedback', 'incorrectfeedback', 'partiallycorrectfeedback']:
+                        if feedbacks[feedback_type]:
+                            explication = "%s<sp:txt><op:txt><sc:para xml:space='preserve'>%s</sc:para></op:txt></sp:txt>" \
+                                          % (explication, feedbacks[feedback_type])
+                    if explication != '':
+                        print (explication)
+                        explication = "<sc:globalExplanation><op:res>%s</op:res></sc:globalExplanation>" % (explication)
+                    param_export = {"title"      : question_dict["title"].encode("utf-8"),
+                                    "donnees"    : donnees.encode("utf-8"),
+                                    "explication": explication.encode("utf-8")
                                     }
                     nb_exos += 1
 
-                elif question_type == "matching":
-                    # TODO : preliminary DRAFT only
-                    print("----- Nouvelle question de type 'matching' -----")
-                    template_file = "templates/Opale36/categorisation.quiz"
+#
+#
+#   Question de type "selectionner le mot manquant"
+#
+                elif question_type == "gapselect" :
+                    print("----- Nouvelle question de type 'selectionner le mot manquant' -----")
+                    template_file = "templates/Opale36/TaT2.quiz"
+                    # Plus d'infos sur ce type ici : https://docs.moodle.org/3x/fr/Question_cloze_%C3%A0_r%C3%A9ponses_int%C3%A9gr%C3%A9es
+                    # LOG.info("----- Nouvelle question de type 'cloze' (%s) -----" % question_dict["title"])
+                    # modele_export = "texteatrous"
+                    donnees = question.find('questiontext').find('text').text
+                    donnees = cleanhtml(donnees)
+                    feedbacks = {"good_reps": [], "bad_reps": []}
+                    # Il faut maintenant parser les donnees à la recherches de codes du style :
+                    # {1:MULTICHOICE:BAD_REP1#fdbk1~%100%GOOD_REP1#fdbk2~BAD_REP2#fdbk3~BAD_REP3#fdbk4}
+
+                    pattern_trous = r"\[\[([0-9]+)\]\]"
+                    liste_groupes_reponses = {}
+                    liste_reponses_possibles = []
+                    #
+                    for balise in question :
+                        if balise.tag == "selectoption" :
+                            numgroupe = str(balise.find('group').text)
+                            choix = (balise.find('text').text)
+                            dico_reponse = {"text": choix, "group": numgroupe}
+                            liste_reponses_possibles.append(dico_reponse)
+                            if numgroupe in liste_groupes_reponses :
+                                liste_groupes_reponses[numgroupe].append(choix)
+                            else :
+                                liste_groupes_reponses[numgroupe] = [choix]
+
+                    matches = re.finditer(pattern_trous, donnees)
+
+                    for match in matches:
+                        num_good_rep = (int(match.group(1)) - 1)
+                        good_rep_grp = liste_reponses_possibles[num_good_rep]
+                        good_rep = good_rep_grp["text"]
+                        numgroupe = good_rep_grp["group"]
+                        options = liste_groupes_reponses[numgroupe]
+                        shuffle(options)
+
+                        # transforme la liste "options" en chaine de caractères :
+                        trou = "<op:gapM><sp:options>"
+                        for reponse in options:
+                            trou = "%s<sp:option>%s</sp:option>" % (trou, reponse)
+                        trou = "%s</sp:options></op:gapM>" \
+                               "%s" % (trou, good_rep)
+
+                        donnees = donnees.replace(match.group(), "<sc:textLeaf role='gap'>%s</sc:textLeaf>" % trou)
+                    for feedback_type in ['generalfeedback', 'correctfeedback', 'incorrectfeedback', 'partiallycorrectfeedback']:
+                        match = question.find(feedback_type)
+                        if match is not None:
+                            # ici tester si match.format = 'html' ?
+                            # moodle formats : html (default), moodle_auto_format, plain_text et markdown
+                            feedbacks[feedback_type] = match.find('text').text
+                            if feedbacks[feedback_type] is None:
+                                feedbacks[feedback_type] = ""
+                            else:
+                                feedbacks[feedback_type] = cleanhtml(feedbacks[feedback_type])
+                        else:
+                            feedbacks[feedback_type] = ""
+
+                    # [TODO] : partiallycorrectfeedback
+
+                    """
+                    # shuffleanswers indique si l'ordre des propositions est aléatoire
+                    # pas utilisé dans Opale ?
+                    shuffleanswers = question.find('shuffleanswers')
+                    if shuffleanswers is not None:
+                        # attention : <shuffleanswers> est parfois noté 0/1, et parfois true/false
+                        list_order = int(shuffleanswers.text) + 1
+                    else:
+                        list_order = 1
+                    """
+                    feedback_bon = feedbacks['correctfeedback']
+                    if len(feedbacks["good_reps"]) > 0:
+                        feedback_bon = "%s%s" % (feedback_bon, (feedbacks["good_reps"]))
+                    feedback_mauvais = feedbacks['incorrectfeedback']
+                    if len(feedbacks["bad_reps"]) > 0:
+                        feedback_mauvais = "%s%s" % (feedback_mauvais, (feedbacks["bad_reps"]))
+                    # On supprime les feedbacks redondant avec ceux de Scenari :
+                    feedbacks['correctfeedback'] = feedbacks['correctfeedback'].replace(u"Votre réponse est correcte.", "")
+                    feedbacks['incorrectfeedback'] = feedbacks['incorrectfeedback'].replace(u"Votre réponse est incorrecte.", "")
+                    feedbacks['partiallycorrectfeedback'] = feedbacks['partiallycorrectfeedback'].replace(u"Votre réponse est partiellement correcte.", "")
+
+                    explication = ''
+                    # concatenation des feedbacks
+                    for feedback_type in ['generalfeedback', 'correctfeedback', 'incorrectfeedback', 'partiallycorrectfeedback']:
+                        if feedbacks[feedback_type]:
+                            explication = "%s<sp:txt><op:txt><sc:para xml:space='preserve'>%s</sc:para></op:txt></sp:txt>" % (explication, feedbacks[feedback_type])
+                    if explication != '':
+                        print (explication)
+                        explication = "<sc:globalExplanation><op:res>%s</op:res></sc:globalExplanation>" % (explication)
+                    param_export = {"title"      : question_dict["title"].encode("utf-8"),
+                                    "donnees"    : donnees.encode("utf-8"),
+                                    "explication": explication.encode("utf-8")
+                                    }
+                    nb_exos += 1
+
+#
+#
+#   Question de type "réponse courte"
+#
+                elif question_type == "shortanswer":
+                    print("----- Nouvelle question de type 'question à réponse courte' -----")
+                    template_file = "templates/Opale36/reponse_courte.quiz"
+                    # Plus d'infos sur ce type ici : https://docs.moodle.org/3x/fr/Question_%C3%A0_r%C3%A9ponse_courte
+                    # LOG.info("----- Nouvelle question de type 'reponse_courte' (%s) -----" % question_dict["title"])
+                    # modele_export = "reponse_courte"
+                    donnees = question.find('questiontext').find('text').text
+                    donnees = cleanhtml(donnees)
+                    feedbacks = {"good_reps": [], "bad_reps": []}
+                    explications = {"feedback_bon": "", "feedback_mauvais": "", "feedback_general": ""}
+                    explications["feedback_general"] = question.find('generalfeedback').find('text').text
+                    explications["feedback_general"] = cleanhtml(explications["feedback_general"])
+
+                    liste_reponses_possibles = []
+                    for balise in question :
+                        if balise.tag == "answer" :
+                            feedback = balise.find("feedback").find("text").text
+                            fraction = balise.get("fraction")
+                            if fraction == "100" :
+                                reponseok = (balise.find('text').text)
+                                liste_reponses_possibles.append(balise.find('text').text)
+                                if feedback is not None:
+                                    feedbacks["good_reps"].append(feedback)
+                            else :
+                                liste_reponses_possibles.append(balise.find('text').text)
+                                if feedback is not None:
+                                    feedbacks["bad_reps"].append(feedback)
+
+                    reponses = ""
+                    for reponse in liste_reponses_possibles :
+                        reponses = "%s<sc:value>%s</sc:value>" % (reponses, reponse)
+
+                    if len(feedbacks["good_reps"]) > 0:
+                        explications["feedback_bon"] = u"<div>indications spécifiques:%s</div>" % ("<br/>".join(feedbacks["good_reps"]))
+                    if len(feedbacks["bad_reps"]) > 0:
+                        explications["feedback_mauvais"] = u"<div>indications spécifiques:%s</div>" % ("<br/>".join(feedbacks["bad_reps"]))
+                    # concatene tous les feedback en un seul :
+                    explication = ''
+                    for feedback_type in ['feedback_general', 'feedback_bon', 'feedback_mauvais']:
+                        if explications[feedback_type]:
+                            explication = "%s<sp:txt><op:txt><sc:para xml:space='preserve'>%s</sc:para></op:txt></sp:txt>" % (explication, explications[feedback_type])
+                    param_export = {"title"      : question_dict["title"].encode("utf-8"),
+                                    "donnees"    : donnees.encode("utf-8"),
+                                    "explication": explication.encode("utf-8"),
+                                    "reponses"   : reponses.encode("utf-8")
+                                    }
+                    nb_exos += 1
+
+#
+#
+#   Question de type "Vrai/Faux"
+#
+                elif question_type == "truefalse" :
+                    print("----- Nouvelle question de type 'question Vrai/Faux' -----")
+                    template_file = "templates/Opale36/qcu.quiz"
+                    # Plus d'infos sur ce type ici : https://docs.moodle.org/3x/fr/Question_vrai_ou_faux
+                    # LOG.info("----- Nouvelle question de type 'truefalse' (%s) -----" % question_dict["title"])
+                    # modele_export = "reponse_courte"
+                    donnees = question.find('questiontext').find('text').text
+                    donnees = cleanhtml(donnees)
+                    feedbacks = {"good_reps": [], "bad_reps": []}
+                    explications = {"feedback_bon": "", "feedback_mauvais": "", "feedback_general": ""}
+                    explications["feedback_general"] = ''
+                    if question.find('generalfeedback').find('text').text:
+                        explications["feedback_general"] = question.find('generalfeedback').find('text').text
+                        explications["feedback_general"] = cleanhtml(explications["feedback_general"])
+
+                    liste_reponses_possibles = []
+                    for balise in question :
+                        if balise.tag == "answer" :
+                            feedback = balise.find("feedback").find("text").text
+                            fraction = balise.get("fraction")
+                            if fraction == "100" :
+                                reponseok = (balise.find('text').text)
+                                liste_reponses_possibles.append(balise.find('text').text)
+                                numbonnereponse = (liste_reponses_possibles.index(reponseok) + 1)
+                                if feedback is not None:
+                                    feedbacks["good_reps"].append(feedback)
+                            else :
+                                liste_reponses_possibles.append(balise.find('text').text)
+                                if feedback is not None:
+                                    feedbacks["bad_reps"].append(feedback)
+
+                    choix = ""
+                    for reponse in liste_reponses_possibles :
+                        choix = "%s<sc:choice><sc:choiceLabel><op:txt><sc:para xml:space='preserve'>%s</sc:para></op:txt></sc:choiceLabel></sc:choice>" \
+                                % (choix, reponse)
+
+                    if len(feedbacks["good_reps"]) > 0:
+                        explications["feedback_bon"] = (feedbacks["good_reps"])
+
+                    if len(feedbacks["bad_reps"]) > 0:
+                        explications["feedback_mauvais"] = (feedbacks["bad_reps"])
+
+                    # concatene tous les feedback en un seul :
+                    if len(explications) > 0:
+                        explication = "<sp:txt><op:txt><sc:para xml:space='preserve'>"
+                        totalexplication = ''
+                        for feedback_type in ['feedback_general', 'feedback_bon', 'feedback_mauvais']:
+                            totalexplication = "%s%s" % (totalexplication, explications[feedback_type])
+                        explication = "%s%s</sc:para></op:txt></sp:txt>" % (explication, totalexplication)
+
+                    param_export = {"title"              : question_dict["title"].encode("utf-8"),
+                                    "donnees"            : donnees.encode("utf-8"),
+                                    "explication"        : explication.encode("utf-8"),
+                                    "choix"              : choix.encode("utf-8"),
+                                    "numbonnereponse"    : str(numbonnereponse)
+                                    }
+                    nb_exos += 1
+
+#
+#
+#   Autres modèles
+#
                 else:
-                    # other Moodle question types : truefalse|shortanswer|matching|essay|numerical|description
+                    # other Moodle question types : matching|essay|numerical|description
                     if question_type not in unrecognized_list :
                         unrecognized_list[question_type] = 1
                     else:
@@ -267,6 +598,8 @@ def convert_Moodle_XML_to_quiz(params):
         if nb_exos == 0:
             message = u"Aucun exercice compatible détecté dans votre fichier."
             print(message)
+        else :
+            print "nombre d'exercices : %s" % nb_exos
 
         if len(unrecognized_list.keys()) > 0:
             message = u"Attention : Certaines questions utilisaient un modèle non reconnu et n'ont pas été importées. (%s)" % unrecognized_list
