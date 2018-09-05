@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:field xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>Trouver l'adjectif (« argent »)</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">À partir du nom <sc:inlineStyle role="spec"><op:txtM><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>argent</sc:inlineStyle>, trouvez l'adjectif dérivé correspondant à ce nom, mais qui a <sc:inlineStyle role="emp">un radical différent</sc:inlineStyle>.</sc:para>
+						<sc:para xml:space="preserve">Par exemple, le verbe <sc:inlineStyle role="spec"><op:txtM><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>manger</sc:inlineStyle> a pour dérivé <sc:inlineStyle role="spec"><op:txtM><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>comestible</sc:inlineStyle>, qui vient de <sc:inlineStyle role="spec"><op:txtM><sp:lang><op:langM><sp:code>la</sp:code></op:langM></sp:lang></op:txtM>comedere</sc:inlineStyle> « manger » en latin.</sc:para>
+						<sc:para xml:space="preserve"><sc:inlineStyle role="emp">Respectez l'orthographe, sinon votre réponse sera considérée comme erronée</sc:inlineStyle>.</sc:para>
+						<sc:para xml:space="preserve">Indice : l'adjectif correspondant signifie « relatif à l'argent ».</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sp:asw>
+			<sc:SFSolution>
+				<sc:value>pécuniaire</sc:value>
+			</sc:SFSolution>
+		</sp:asw>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Attention, l'orthographe de ce mot est souvent mal maîtrisée. On voit parfois écrit *<sc:inlineStyle role="spec"><op:txtM><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>pécunière</sc:inlineStyle>. Mais l'adjectif *<sc:inlineStyle role="spec"><op:txtM><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>pécunier</sc:inlineStyle> n'existe pas, c'est un <sc:uLink role="glos" sc:refUri="../&amp;/Barbarisme.ref">barbarisme</sc:uLink>.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:field>
+</sc:item>

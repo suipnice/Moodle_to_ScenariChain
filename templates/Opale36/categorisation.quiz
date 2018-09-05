@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:match xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:exeM>
+			<sp:title>$$title$$</sp:title>
+		</op:exeM>
+		<sc:question>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Redonnez à chaque mot appartenant à la famille du mot <sc:inlineStyle role="spec">mot</sc:inlineStyle> sa définition. Conseil : lisez d'abord les définitions, procédez par élimination et aidez-vous éventuellement d'un dictionnaire.</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:question>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Lexical</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Relatif au vocabulaire</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Verbatim</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Citation textuelle, mot à mot d'un discours</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Lexique</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Recueil de mots classés en listes</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Lexème</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Unité de sens appartenant au lexique</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Verbal</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Qui concerne les mots</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Verbeux</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Qui parle beaucoup, souvent inutilement</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:group>
+			<sc:target>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Lexicalisation</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:target>
+			<sc:label>
+				<op:label>
+					<sp:txt>
+						<op:labelTxt>
+							<sc:para xml:space="preserve">Figement d'une suite de mots</sc:para>
+						</op:labelTxt>
+					</sp:txt>
+				</op:label>
+			</sc:label>
+		</sc:group>
+		<sc:globalExplanation>
+			<op:res>
+				<sp:txt>
+					<op:txt>
+						<sc:para xml:space="preserve">Tous les mots qui contiennent l'élément <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>lex</sc:inlineStyle>- viennent du grec <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>gr</sp:code></op:langM></sp:lang></op:txtM>λε ́ξις</sc:inlineStyle> (lexis) qui désigne un mot.</sc:para>
+						<sc:para xml:space="preserve">Le latin n'est pas en reste, puisque le mot <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>verbe</sc:inlineStyle> (du latin <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>la</sp:code></op:langM></sp:lang></op:txtM>verbum</sc:inlineStyle> qui désigne aussi... le mot !) a donné beaucoup de dérivés : mentionnons <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>verbaliser</sc:inlineStyle> qui, avant de signifier « dresser un procès-verbal », avait le sens de « faire de grands discours inutiles ».</sc:para>
+						<sc:para xml:space="preserve">Le mot <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>mot</sc:inlineStyle> a une origine curieuse : le latin <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>la</sp:code></op:langM></sp:lang></op:txtM>muttum</sc:inlineStyle> serait issu d'une onomatopée <sc:inlineStyle role="spec">mu</sc:inlineStyle> (« son, bruit sans signification »), qui est aussi à l'origine de... <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>muet </sc:inlineStyle>! <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>Mot</sc:inlineStyle> n'a qu'un seul dérivé, le nom <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>motet</sc:inlineStyle> (proprement « petit mot », qui désigne depuis le Moyen Âge une pièce musicale d'inspiration religieuse).</sc:para>
+						<sc:para xml:space="preserve">Le lien entre <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>verbe</sc:inlineStyle> et <sc:inlineStyle role="spec"><op:txtM xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"><sp:lang><op:langM><sp:code>fr</sp:code></op:langM></sp:lang></op:txtM>mot</sc:inlineStyle> est fort, même si les formes de ces mots n'ont rien en commun : la preuve, un amateur de mots-croisés s'appelle un cruciverbiste (le mot-croisiste a existé mais n'a pas fait florès).</sc:para>
+					</op:txt>
+				</sp:txt>
+			</op:res>
+		</sc:globalExplanation>
+	</op:match>
+</sc:item>

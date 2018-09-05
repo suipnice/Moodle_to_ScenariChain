@@ -1,0 +1,2848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/AI AIE + ES AIES + EST AIT - exercice 2</text>
+
+    </category>
+  </question>
+
+<!-- question: 10172  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE + ES AIES + EST AIT - exercice 2 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>ai</i>,&nbsp;<i>aie</i>,&nbsp;<i>es</i>,&nbsp;<i>aies, est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>Je ne sais pas ce qui {1:SHORTANSWER:=est} le plus difficile pour toi&nbsp;: que tu {1:SHORTANSWER:=aies} dû renoncer à tes études ou que tu {1:SHORTANSWER:=aies} pris ce travail insignifiant. Je vois cependant que tu {1:SHORTANSWER:=es} courageux face à l’adversité. Sois certain que j’{1:SHORTANSWER:=ai} pour toi le plus grand respect, malgré les circonstances. Fasse le ciel que j’{1:SHORTANSWER:=aie} l’occasion de te le prouver, avant que le destin ne nous {1:SHORTANSWER:=ait} éloignés.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à des exercices sur une autre difficulté. Si vous avez eu des difficultés, revenez aux exercices plus spécifiques (AI/AIE ou ES/AIES ou EST/AIT).</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10180  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE + ES AIES + EST AIT - exercice 2 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i>, <i>aie</i>, <i>es</i>,&nbsp;<i>aies, est</i> <span>ou</span>&nbsp;<i>ait</i> :</p>
+Il {1:SHORTANSWER:=est} six heures du soir. Tu {1:SHORTANSWER:=es} encore là, alors même que j’{1:SHORTANSWER:=ai} multiplié les appels du pieds pour t’encourager à partir. Je pense à la route qui t’attend et je crains que la fatigue n’{1:SHORTANSWER:=ait} raison de toi avant que tu sois arrivé à bon port. Que tu {1:SHORTANSWER:=aies} un accident, et je ne me le pardonnerai jamais. Pourvu que j’{1:SHORTANSWER:=aie} enfin la phrase qui te convaincra de rentrer.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à des exercices sur une autre difficulté. Si vous avez eu des difficultés, revenez aux exercices plus spécifiques (AI/AIE ou ES/AIES ou EST/AIT).</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10187  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE + ES AIES + EST AIT - exercice 2 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>ai</i>,&nbsp;<i>aie</i>,&nbsp;<i>es</i>,&nbsp;<i>aies, est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+Jusqu’à ce que j’{1:SHORTANSWER:=aie} rejoint ce groupe et que tu {1:SHORTANSWER:=aies} fait ton apparition dans mon existence, la vie se refusait à faire sens. Maintenant, tu {1:SHORTANSWER:=es} là et j’{1:SHORTANSWER:=ai} su reprendre des forces. Plaise au ciel qu’il n’y {1:SHORTANSWER:=ait} rien pour nous séparer. Le but {1:SHORTANSWER:=est} là, devant nous.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à des exercices sur une autre difficulté. Si vous avez eu des difficultés, revenez aux exercices plus spécifiques (AI/AIE ou ES/AIES ou EST/AIT).</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10194  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE + ES AIES + EST AIT - exercice 2 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>ai</i>,&nbsp;<i>aie</i>,&nbsp;<i>es</i>,&nbsp;<i>aies, est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+Comment aurais-je pu imaginer que tu n’{1:SHORTANSWER:=aies} pas pensé à cette si simple chose, que je n’{1:SHORTANSWER:=aie} pas, de ce fait, la moindre chance de m’en tirer ? Il {1:SHORTANSWER:=est} des circonstances imprévisibles qui décident d’une vie. Je n’{1:SHORTANSWER:=ai} pas su prévoir. Tu t’{1:SHORTANSWER:=es} montré stupide. Et, bien que tout {1:SHORTANSWER:=ait} été fait jusqu’alors pour que cette grossesse parvienne à son terme en épargnant et ma vie et celle de notre enfant, voilà qu’il en {1:SHORTANSWER:=est} autrement.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à des exercices sur une autre difficulté. Si vous avez eu des difficultés, revenez aux exercices plus spécifiques (AI/AIE ou ES/AIES ou EST/AIT).</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10202  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE + ES AIES + EST AIT - exercice 2 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>ai</i>,&nbsp;<i>aie</i>,&nbsp;<i>es</i>,&nbsp;<i>aies, est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+L’asticot {1:SHORTANSWER:=est} à cet étrange pays ce que la baguette {1:SHORTANSWER:=est} à la France. Et, tu en {1:SHORTANSWER:=es} bien malheureux, toi qui le diriges. A-t-on déjà vu un pays qui {1:SHORTANSWER:=ait} un emblème aussi repoussant ? Bien que tu {1:SHORTANSWER:=aies} tout fait pour changer cela, à grands coups de communication, rien n’y a fait. J’{1:SHORTANSWER:=ai}, quant à moi, une certaine tendresse pour cet emblème dont personne ne veut, sans que j’{1:SHORTANSWER:=aie} la moindre capacité à me l’expliquer.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à des exercices sur une autre difficulté. Si vous avez eu des difficultés, revenez aux exercices plus spécifiques (AI/AIE ou ES/AIES ou EST/AIT).</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/AI AIE - exercice 1</text>
+
+    </category>
+  </question>
+
+<!-- question: 10230  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i> :</p>Il faut que j'{1:SHORTANSWER:=aie} beaucoup souffert pour réagir ainsi !]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Mettez cette phrase à la personne <i>nous </i>: <i>il faut que nous ayons beaucoup souffert...</i>&nbsp;Donc, la réponse correcte est <i>aie</i>.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10250  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i>&nbsp;:</p>
+Le directeur ne pense pas que j’{1:SHORTANSWER:=aie} ces capacités.<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Transposez avec la personne <i>vous </i>: <i>le directeur ne pense pas que vous ayez ces capacités</i>, donc la réponse correcte est : <i>aie</i>.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10232  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i> :</p>
+Depuis des années, j’{1:SHORTANSWER:=ai} envie de me consacrer à cette tâche.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez <i>je</i>&nbsp;par <i>nous</i>&nbsp;: <i>depuis des années, nous avons envie</i>, donc la réponse est : <i>j'ai.</i></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur ES/AIES ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10234  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i> :</p>
+Bon an mal an, j’{1:SHORTANSWER:=ai} pu réunir un grand nombre de documents.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>il</i> : <i>il a pu réunir</i>, donc : <i>j'<b>ai</b> pu réunir.&nbsp;</i></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur ES/AIES ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10236  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i>&nbsp;:</p>
+Quoi que j’{1:SHORTANSWER:=aie}, il faudra bien que l’on trouve comment me soigner.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<span>Remplacez <i>je </i>par <i>nous </i>:&nbsp;</span><i>quoi que nous ayons,</i>&nbsp;donc :&nbsp;<i>quoi que j'aie</i>.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10238  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i> :</p>
+C’est au sommet de cette montagne que j’{1:SHORTANSWER:=ai} pu mesurer l’effort accompli.<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Même s'il y a <i>que </i>devant <i>ai</i>, ce n'est pas une forme de subjonctif (<i>que j'aie</i>). En effet,&nbsp;<i>que </i>est nécessité par la présence de <i>c'est </i>au début de la phrase : <i><u>c'est</u> au sommet <u>que</u>...</i>&nbsp;Si vous retirez <i>c'est</i>, vous retirez <i>que</i>&nbsp;: <i>au sommet de cette montagne, j'ai pu mesurer...</i>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10240  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i>&nbsp;:</p>
+Au moment même où j’{1:SHORTANSWER:=ai} atteint mon but, un grand vide m’a envahi.<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez <i>je</i>&nbsp;par nous<i>&nbsp;</i>: <i>au moment où nous avons atteint notre but</i>, donc : <i>j'ai.</i></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur ES/AIES ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10242  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i> :</p>
+Avant que j’{1:SHORTANSWER:=aie} pu faire un geste, la situation avait dégénéré.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[La forme <i>avant que</i>&nbsp;introduit une subordonnée de temps. Le fait principal (<i>la situation avait dégénéré</i>) est antérieur - vient avant - le fait secondaire<i>&nbsp;(faire un geste</i>), qui du coup n'a pas eu lieu. C'est pour cette raison que avec&nbsp;<i>avant que</i>, vous utilisez le subjonctif.&nbsp;]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10244  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i>&nbsp;:</p>
+J’{1:SHORTANSWER:=ai} compris alors combien mon avis était important. Aussi {1:SHORTANSWER:=ai}-je pris la ferme résolution de ne plus me laisser détourner de ma mission.<br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>nous</i>&nbsp;: <i>nous avons compris </i>et <i>aussi avons-nous pris la résolution. </i>Donc, la réponse est : <i>j'ai compris </i>et <i>avons-nous pris</i>.</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur ES/AIES ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10247  -->
+  <question type="cloze">
+    <name>
+      <text>AI AIE - exercice 1 (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>ai</i> ou <i>aie</i>&nbsp;:</p>
+Parmi les personnes qui se trouvaient présentes ce soir-là, il n'y en avait aucune que j’{1:SHORTANSWER:=aie} aimé ou à qui j’{1:SHORTANSWER:=aie} eu un jour envie de me confier.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez <i>je </i>par <i>nous</i>&nbsp;: <i>il n'y en avait aucune que nous ayons aimé ou à qui nous avons eu envie de nous confier</i>. La réponse est donc : <i>j'aie aimé </i>et <i>j'ai eu envie.</i></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur ES/AIES ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/é er - exercice 2</text>
+
+    </category>
+  </question>
+
+<!-- question: 10325  -->
+  <question type="cloze">
+    <name>
+      <text>é er - exercice 2 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>Il était {1:MULTICHOICE:troubler~=troublé} par la réaction de Clémence. Visiblement hors d’elle-même, sa femme lui avait {1:MULTICHOICE:arracher~=arraché} brutalement des mains l’objet tant {1:MULTICHOICE:aimer~=aimé} et projetait visiblement de le {1:MULTICHOICE:=fracasser~fracassé} au sol, dans un accès de colère. {1:MULTICHOICE:=Protester~protesté} aurait été vain. Il préféra se {1:MULTICHOICE:=replier~replié} dans sa chambre, en attendant que le courroux de sa compagne se soit {1:MULTICHOICE:apaiser~=apaisé}.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pour les formes en é, ée, és ou ées, voir les fiches concernant l’accord du participe passé.<br></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10333  -->
+  <question type="cloze">
+    <name>
+      <text>é er - exercice 2 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>« Il nous faudra {1:MULTICHOICE:=valider~validée} la procédure ». C’était bien une phrase d’administratif. Quand il s’agissait de {1:MULTICHOICE:=compliquer~compliquées} les choses, ils étaient toujours là. {1:MULTICHOICE:Exténuer~=Exténué}, {1:MULTICHOICE:exaspérer~=exaspéré}, Martin se demandait comment il allait pouvoir {1:MULTICHOICE:=supporter~supporté} ce nouveau délai. S’il avait {1:MULTICHOICE:imaginer~=imaginé} ce montage pour {1:MULTICHOICE:=sauver~sauvé} son entreprise, c’était précisément parce que celle-ci avait un besoin urgent d’être {1:MULTICHOICE:aider~=aidée}. Il avait fait tout ce qui était en son pouvoir. Les dés étaient {1:MULTICHOICE:jeter~=jetés}. Il ne restait plus qu’à {1:MULTICHOICE:=espérer~espéré}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pour les formes en é, ée, és ou ées, voir les fiches concernant l’accord du participe passé.<br></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10344  -->
+  <question type="cloze">
+    <name>
+      <text>é er - exercice 2 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:MULTICHOICE:=Jardiner~Jardiné} avait toujours été la passion de Bénédicte. Elle avait {1:MULTICHOICE:débuter~=débuté} ce hobby encore petite, en suivant sa mère entre potager et jardin d’agrément. Peu à peu, celle-ci lui avait {1:MULTICHOICE:enseigner~=enseigné} tous les trucs du bon jardinier. Elle avait {1:MULTICHOICE:engranger~=engrangé} dans sa mémoire nature de compost, date de semis ou de taille, méthodes d’éclaircissage. Naturellement, quand s’était {1:MULTICHOICE:approcher~=approché} le moment de choisir un métier, elle avait {1:MULTICHOICE:parler~=parlé} de devenir horticultrice ou paysagiste. Cette idée n’avait pas {1:MULTICHOICE:enthousiasmer~=enthousiasmé} sa famille. {1:MULTICHOICE:=Jardiner~Jardiné} pour son plaisir était une chose, mais en faire son métier, une autre. Ses parents ne comprenaient pas qu’elle veuille {1:MULTICHOICE:=travailler~travaillée} de ses mains. Elle dut se {1:MULTICHOICE:=montrer~montrée} persuasive.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pour les formes en é, ée, és ou ées, voir les fiches concernant l’accord du participe passé.<br></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10355  -->
+  <question type="cloze">
+    <name>
+      <text>é er - exercice 2 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant :</p>
+Il venait de {1:MULTICHOICE:=dresser~dressée} la tente sur un petit espace à peu près plat. {1:MULTICHOICE:Fatiguer~=Fatigué} mais {1:MULTICHOICE:émerveiller~=émerveillé}, il s’accorda un moment de pause devant le spectacle splendide de la chaîne de montagne qui lui faisait face. Il restait peu de temps avant le {1:MULTICHOICE:=coucher~couché} du soleil. Il lui fallait encore {1:MULTICHOICE:=préparer~préparé} son festin du soir, {1:MULTICHOICE:=commencer~commencé} à {1:MULTICHOICE:=chauffer~chauffée} l’eau qui lui permettrait de {1:MULTICHOICE:=préparer~préparée} sa soupe {1:MULTICHOICE:lyophiliser~=lyophilisée} puis de cuire ses pâtes. {1:MULTICHOICE:Agrémenter~=Agrémentées} d’un peu de sel et de fromage - il n’avait pas {1:MULTICHOICE:monter~=monté} tout cela pour rien dans son sac à dos, elles allaient être délicieuses. Le repas avançait. Le soleil commençait à se {1:MULTICHOICE:=coucher~couché} entre deux pics. Il était temps de rejoindre son sac de couchage pour pouvoir {1:MULTICHOICE:=rêver~rêvé} à l’ascension du lendemain, une des plus {1:MULTICHOICE:réputer~=réputées} des Alpes.
+<p class="post_tat">1 énoncé sur 8. Pour les formes en é, ée, és ou ées, voir les fiches concernant l&rsquo;accord du participe passé.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10370  -->
+  <question type="cloze">
+    <name>
+      <text>é er - exercice 2 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Apprendre à jouer du piano avait été longtemps pour Violette une corvée épouvantable. Mais elle pouvait aujourd’hui s’{1:MULTICHOICE:=estimer~estimée} heureuse que ses parents la lui aient {1:MULTICHOICE:imposer~=imposée} pendant des années. Sans sa capacité à {1:MULTICHOICE:=jouer~joué} du piano, Cyrille ne l’aurait pas {1:MULTICHOICE:aimer~=aimée}. Le jeune homme {1:MULTICHOICE:distinguer~=distingué} et {1:MULTICHOICE:élancer~=élancé} avait été {1:MULTICHOICE:toucher~=touché} autant par l’émotion que communiquait son jeu que par le tableau qu’elle formait, {1:MULTICHOICE:installer~=installée} devant son instrument, ses cheveux {1:MULTICHOICE:relever~=relevés}, le corps légèrement {1:MULTICHOICE:incliner~=incliné} vers le clavier. Et, depuis leur rencontre, se {1:MULTICHOICE:=retrouver~retrouvés} auprès du piano était devenu un rendez-vous tacite, une forme de nécessité {1:MULTICHOICE:accepter~=acceptée}, leur danse à eux, leur madeleine.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pour les formes en é, ée, és ou ées, voir les fiches concernant l’accord du participe passé.<br></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10383  -->
+  <question type="cloze">
+    <name>
+      <text>é er - exercice 2 (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Quoi de plus banal qu’un canapé. Mais ce canapé-là, il avait une histoire. Des générations de Wilhelm s’y étaient {1:MULTICHOICE:embrasser~=embrassées}, avaient {1:MULTICHOICE:fêter~=fêté}, paresseusement {1:MULTICHOICE:installer~=installées} en son sein, bien des Noëls en famille. On y avait {1:MULTICHOICE:coucher~=couché} des amis de passage. On y avait {1:MULTICHOICE:installer~=installé} des dizaines de bébés pour les {1:MULTICHOICE:=changer~changés}. Et, lui-même, qui avait toujours {1:MULTICHOICE:aimer~=aimé} s’y {1:MULTICHOICE:=pelotonner~pelotonné}, pouvait y {1:MULTICHOICE:=associer~associé} les différentes étapes de sa vie. Certes, il était très {1:MULTICHOICE:abîmer~=abîmé} mais Georges ne pouvait se {1:MULTICHOICE:=résigner~résigné} à s’en {1:MULTICHOICE:=séparer~séparé}. Tant qu’il ne tomberait pas en poussières, il le conserverait, malgré les demandes {1:MULTICHOICE:réitérer~=réitérées} de sa femme.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pour les formes en é, ée, és ou ées, voir les fiches concernant l’accord du participe passé.<br></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10397  -->
+  <question type="cloze">
+    <name>
+      <text>é er - exercice 2 (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Baptiste avait, pour {1:MULTICHOICE:=terminer~terminé}, {1:MULTICHOICE:dessiner~=dessiné} un inquiétant navire prêt à lever l’ancre. Qu’avait voulu {1:MULTICHOICE:=signifier~signifié} le petit garçon en choisissant de {1:MULTICHOICE:=représenter~représenté} un curieux bâtiment davantage {1:MULTICHOICE:destiner~=destiné} à s’{1:MULTICHOICE:=envoler~envolé} vers un ailleurs inconnu qu’à {1:MULTICHOICE:=naviguer~navigué} ? Il était {1:MULTICHOICE:partager~=partagé}. Devait-il s’{1:MULTICHOICE:=inquiéter~inquiété} pour l’enfant ou {1:MULTICHOICE:=admirer~admiré} sa capacité à {1:MULTICHOICE:=créer~créé} un monde imaginaire aussi spectaculaire ? Il trancha : l’univers {1:MULTICHOICE:torturer~=torturé} de l’enfant méritait tout de même qu’un suivi soit {1:MULTICHOICE:envisager~=envisagé}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pour les formes en é, ée, és ou ées, voir les fiches concernant l’accord du participe passé.<br></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10411  -->
+  <question type="cloze">
+    <name>
+      <text>é er - exercice 2 (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:MULTICHOICE:=Porter~Porté} sa famille, voilà la tâche que s’était {1:MULTICHOICE:assigner~=assignée} Victor dès ses 12 ans. Il savait ne pouvoir {1:MULTICHOICE:=compter~compté} que sur lui pour {1:MULTICHOICE:=éduquer~éduqué} ses frères. Aussi, l’enfant s’était-il {1:MULTICHOICE:transformer~=transformé}, croyait-il, en un petit adulte {1:MULTICHOICE:priver~=privé} des distractions de son âge. Depuis la mort de sa mère, il suppléait son père, {1:MULTICHOICE:épuiser~=épuisé} par les heures de travail qu’il accumulait pour subvenir aux besoins de sa famille. Faire se {1:MULTICHOICE:=lever~levés} les enfants, les nourrir, {1:MULTICHOICE:=emmener~emmenés} à l’école les plus jeunes, {1:MULTICHOICE:=consoler~consolé} ou {1:MULTICHOICE:=gronder~grondé} parfois, {1:MULTICHOICE:=exercer~exercé} l’autorité en attendant le retour du père, tel était son quotidien. Il était très {1:MULTICHOICE:fatiguer~=fatigué}, {1:MULTICHOICE:épuiser~=épuisé} même, mais il ne s’autorisait pas à y {1:MULTICHOICE:=penser~pensé}. Or, Victor, quoiqu’il en ait {1:MULTICHOICE:penser~=pensé}, n’était pas un petit adulte. Combien de temps encore pourrait-il {1:MULTICHOICE:=supporter~supporté} ce poids ?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pour les formes en é, ée, és ou ées, voir les fiches concernant l’accord du participe passé.<br></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/ES AIES - exercice 1</text>
+
+    </category>
+  </question>
+
+<!-- question: 10210  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>es</i> ou <i>aies</i> :</p>Tu {1:SHORTANSWER:=es} si sensible quand tu t’y mets&nbsp;!]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous&nbsp;</i>: <i>vous êtes si sensible</i>, la réponse est donc : <i>tu es</i>.&nbsp;</p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10228  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>es</i>&nbsp;ou&nbsp;<i>aies</i>&nbsp;:</p>
+Cette mer est la plus grande que tu {1:SHORTANSWER:=aies} eu l’occasion de voir.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous</i>&nbsp;: <i>cette mer est la plus grande que vous ayez eu... </i>la réponse est donc : <i>tu aies.</i></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10212  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>es</i> ou <i>aies</i>&nbsp;:</p>
+Il en sera ainsi, non pas que tu {1:SHORTANSWER:=aies} raison, mais parce que je suis fatigué.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous</i>&nbsp;: <i>non pas que vous ayez raison</i>, la réponse est donc : <i>tu aies</i>.</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10214  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>es</i>&nbsp;ou&nbsp;<i>aies</i>&nbsp;:</p>
+Tu as d’abord été un brillant élève, puis tu {1:SHORTANSWER:=es} devenu un professionnel compétent.<br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous&nbsp;</i>: <i>vous êtes devenu</i>, la réponse est donc : <i>tu es.</i>&nbsp;</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10216  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>es</i> ou <i>aies</i>&nbsp;:</p>
+Jusqu’à ce que tu {1:SHORTANSWER:=aies} compris le cheminement à suivre, tu recommenceras.<br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous</i>: <i>jusqu'à ce que vous ayez compris</i>, la réponse est donc : <i>tu aies</i>.</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10218  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>es</i>&nbsp;ou&nbsp;<i>aies</i>&nbsp;:</p>Vu ton peu d'enthousiasme devant le travail, je me demande si tu {1:SHORTANSWER:=es} venu pour apprendre.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous</i>&nbsp;: <i>je me demande si vous êtes venu</i>, la réponse est donc : <i>tu es</i>.</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10220  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>es</i>&nbsp;ou&nbsp;<i>aies</i>&nbsp;:</p>
+Il a fallu des siècles de progrès pour que tu {1:SHORTANSWER:=aies} aujourd’hui en main un outil aussi performant.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous&nbsp;</i>: <i>pour que vous ayez en main</i>, la réponse est donc : <i>tu aies</i>.</p><p>Notez que <i>pour que </i>nécessite le subjonctif.</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10222  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>es</i>&nbsp;ou&nbsp;<i>aies</i>&nbsp;:</p>
+Autant il est drôle, autant tu {1:SHORTANSWER:=es} soporifique.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous </i>: <i>vous êtes soporifique</i>, la réponse est donc : <i>tu es</i>.</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10224  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>es</i> ou <i>aies</i> :</p>
+Il serait bien que nous nous mettions d’accord, de façon à ce que tu {1:SHORTANSWER:=aies} la possibilité de travailler.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous </i>: <i>de façon à ce que vous ayez la possibilité</i>. La réponse est donc : <i>tu aies.</i></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10226  -->
+  <question type="cloze">
+    <name>
+      <text>ES AIES - exercice 1 (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>es</i>&nbsp;ou&nbsp;<i>aies</i>&nbsp;:</p>
+Même si tu {1:SHORTANSWER:=es} aujourd’hui déçu par l’orientation que prennent les choses, il faut que tu en tires la meilleure part.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>vous</i>&nbsp;: <i>même si vous êtes déçu, </i>la réponse est donc : <i>tu es.</i>&nbsp;</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou EST/AIT ou, si ceux-ci ont déjà été faits, à l’exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/EST AIT - exercice 1</text>
+
+    </category>
+  </question>
+
+<!-- question: 10252  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>Il {1:SHORTANSWER:=est} vrai que nous sommes nombreux à penser cela.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Il n'est pas possible de remplacez par une autre personne, puisque la tournure <i>il est vrai</i>&nbsp;<span>n'existe qu'avec le pronom <i>il</i>. Dans ce cas, changez le temps du verbe : <i>il sera vrai </i>(et non *<i>il aura vrai</i>). La réponse est donc : <i>il est</i>.</span></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10270  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>Finalement, qu’il l’{1:SHORTANSWER:=ait} ou qu’il ne l’{1:SHORTANSWER:=ait} pas, il aura tout fait pour obtenir ce diplôme.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Ici, il vaut mieux remplacer par <i>nous</i>&nbsp;(car avec <i>ils </i>la prononciation ne change pas) : <i>que nous l'ayons ou que nous ne l'ayons pas</i>. La réponse est donc : <i>il ait</i>&nbsp;dans les deux cas.<i>&nbsp;</i></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10254  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+Bien qu’il {1:SHORTANSWER:=ait} raison, je n’apprécie pas sa façon de le dire.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>remplacez par <i>ils</i>&nbsp;: <i>bien qu'ils aient raison </i>(et non *<i>bien qu'ils ont raison</i>), ou par <i>nous</i>&nbsp;: <i>bien que nous ayons raison</i>. La réponse est donc : <i>il ait</i>.</p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10256  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+Qu’il {1:SHORTANSWER:=est} drôle, cet homme&nbsp;!]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>ils </i>: <i>qu'ils sont drôles</i>, ou par <i>vous</i>&nbsp;: <i>que vous êtes drôle</i>. La réponse est donc : <i>il est.</i></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10258  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+Avant qu’il {1:SHORTANSWER:=ait} pris un tout autre chemin, j’étais très proche de mon frère.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>ils </i>(<i>avant qu'ils aient pris un autre chemin</i>) ou par <i>nous </i>: <i>avant que nous ayons pris. </i>La réponse est donc : <i>il ait</i>.</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10260  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+Et voici que maintenant il {1:SHORTANSWER:=est} parvenu à ses fins.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>ils</i>&nbsp;: <i>ils sont parvenus </i>(et non *<i>ils aient parvenu</i>). La réponse est donc : <i>il est parvenu.</i></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10262  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+Nous voulions tous qu’il {1:SHORTANSWER:=ait} réussi son examen.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>ils </i>: <i>nous voulions qu'ils aient</i>&nbsp;<i>réussi&nbsp;</i>(et non *<i>qu'ils ont</i>), ou par <i>vous</i>&nbsp;: <i>nous voulions que vous ayez réussi. </i>La réponse est donc : <i>il ait</i>.</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10264  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>est</i> ou <i>ait</i>&nbsp;:</p>
+Je pense qu’il {1:SHORTANSWER:=est} désormais prêt à tout.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>ils </i>: <i>ils sont prêts à tout</i>, la réponse est donc : <i>il est.</i></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10266  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+Vous craignez tant qu’il {1:SHORTANSWER:=ait} perdu le feu sacré.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>ils</i>&nbsp;: <i>vous craignez qu'ils aient perdu </i>(et non *<i>qu'ils aient perdu</i>). La réponse est donc : <i>il ait.</i></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10268  -->
+  <question type="cloze">
+    <name>
+      <text>EST AIT - exercice 1 (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par&nbsp;<i>est</i>&nbsp;ou&nbsp;<i>ait</i>&nbsp;:</p>
+Après qu’il {1:SHORTANSWER:=est} venu, j’ai voulu vérifier ses dires.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remplacez par <i>nous </i>: <i>après que nous sommes venus</i>&nbsp;(et non *<i>après que nous avions venu</i>). La réponse est donc : <i>il est</i>.</p><p><b>Remarque</b> : <span>on a tendance à dire et à écrire <i>après qu'il soit venu / après que nous soyons venus</i>, sur le modèle de <i>avant qu'il soit venu / nous soyons venus</i>.&nbsp;</span></p><p><span>Cet usage actuel, de plus en plus répandu, est une utilisation abusive du subjonctif. <i>Après que</i>&nbsp;introduit un fait (<i>venir</i>) qui a effectivement eu lieu lorsque le fait principal (<i>vérifier</i>)<i>&nbsp;</i>se déroule, et c'est bien après sa venue que j'ai vérifié. On doit donc utiliser normalement l'indicatif après <i>après que</i>.</span><br></p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez aux exercices sur AI/AIE ou ES/AIES ou, si ceux-ci ont déjà été faits, à l'exercice mêlant tous les cas de figure.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/I IS IT - niveau 1</text>
+
+    </category>
+  </question>
+
+<!-- question: 10152  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>&nbsp;:</p>Cela fait trois jours que j’ai fin{1:SHORTANSWER_C:=i} de lire cet ouvrage.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du participe passé en -<i>i</i>) après avoir revu les fiches concernant l’accord du participe passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10170  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i> ou -<i>is</i> ou -<i>it</i>&nbsp;:</p>
+Puisque tu sédu{1:SHORTANSWER_C:=is} tant les auditoires féminins, il vaut mieux que cela soit toi qui prennes la parole.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du participe passé en -<i>i</i>) après avoir revu les fiches concernant l’accord du participe passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10154  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>&nbsp;:</p>
+Pendant que tu fin{1:SHORTANSWER_C:=is} la pièce montée, je regarde si le support est prêt à la recevoir.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du participe passé en -<i>i</i>) après avoir revu les fiches concernant l’accord du participe passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10156  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>&nbsp;:</p>
+Ce matin-là, il fin{1:SHORTANSWER_C:=it} par se décider et prit la route.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du participe passé en -<i>i</i>) après avoir revu les fiches concernant l’accord du participe passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10158  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>&nbsp;:</p>
+Fin{1:SHORTANSWER_C:=i} ou pas, je viens te chercher.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du participe passé en -<i>i</i>) après avoir revu les fiches concernant l’accord du participe passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10160  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>&nbsp;:</p> 
+Tu commences, je fin{1:SHORTANSWER_C:=is}. Nous serons plus efficaces à deux.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du participe passé en -<i>i</i>) après avoir revu les fiches concernant l’accord du participe passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10162  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat"><span>Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>&nbsp;:</span></p>
+Après avoir commencé, poursuivi puis fin{1:SHORTANSWER_C:=i} leur tâche, ils n’aspiraient qu’à se reposer.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du participe passé en -<i>i</i>) après avoir revu les fiches concernant l’accord du participe passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10164  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>&nbsp;:</p>
+Il vola à travers la pièce et fin{1:SHORTANSWER_C:=it} sur le carrelage.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du participe passé en -<i>i</i>) après avoir revu les fiches concernant l’accord du participe passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10166  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>&nbsp;:</p>
+Il est part{1:SHORTANSWER_C:=i} hier à la recherche de son père.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du part. passé en i) après avoir revu les fiches concernant l&rsquo;accord du part. passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10168  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 1 (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>&nbsp;:</p>
+Excédé par le tour que prenait la conversation, Hugues part{1:SHORTANSWER_C:=it} brutalement.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, vous pourrez passer au niveau 2 (avec différents accords du participe passé en -<i>i</i>) après avoir revu les fiches concernant l’accord du participe passé.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/I IS IT - niveau 2</text>
+
+    </category>
+  </question>
+
+<!-- question: 10132  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i>&nbsp;ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>Ces hommes sont fin{1:SHORTANSWER:=is}. La guerre les a broyés.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice I / IS / IT ou U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10150  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par <i>-i, -</i><i>is</i>&nbsp;ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i> ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>
+Tap{1:SHORTANSWER:=i} dans l’ombre, il attendait que la foule se disperse.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice I / IS / IT ou U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10134  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i>&nbsp;ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>
+Vous pouvez venir chercher vos colis, ils sont prêts, je les ai fin{1:SHORTANSWER:=is} ce soir.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice I / IS / IT ou U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10136  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i>&nbsp;ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>
+Fin{1:SHORTANSWER:=is} les scandales. Vive la transparence.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remarque : <i>fini </i>en début de phrase de cette manière, comme <i>vu</i>&nbsp;a tendance à devenir invariable.</p><p><br></p>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l’exercice I / IS / IT ou U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10138  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i>&nbsp;ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>
+Elle se voyait fin{1:SHORTANSWER:=ie}, bonne à mettre au rebut.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice I / IS / IT ou U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10140  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i>&nbsp;ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>
+Je les ai enfin fin{1:SHORTANSWER:=ies}, ces satanées décorations.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice I / IS / IT ou U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10142  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i>&nbsp;ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>
+Tu compr{1:SHORTANSWER:=is} alors que la situation n’était pas aussi simple.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice I / IS / IT ou U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10144  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i>&nbsp;ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>« Je ne te laisserai pas faire cela », repr{1:SHORTANSWER:=it}-il, la voix larmoyante.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice I / IS / IT ou U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10146  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i> ou -<i>is</i> ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i> ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>
+Il fu{1:SHORTANSWER:=it} ce genre de manifestation.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l’exercice I / IS / IT ou U / US / UT - niveau 3</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10148  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT - niveau 2 (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant par -<i>i</i>&nbsp;ou -<i>is</i>&nbsp;ou -<i>it</i>, mais aussi le cas échéant par -<i>ie</i>&nbsp;ou -<i>ies</i>, en fonction de l'accord du participe passé&nbsp;:</p>
+Il y a 10 ans, tu prom{1:SHORTANSWER:=is} à ta mère qu’elle pourrait être fière de toi.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice I / IS / IT ou U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/I IS IT et U US UT - niveau 3</text>
+
+    </category>
+  </question>
+
+<!-- question: 10101  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>Le pape a bén{1:SHORTANSWER:=i} la foule.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10119  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Combien d’hommes ont p{1:SHORTANSWER:=u} y accéder ?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10121  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (11)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Pendant de longues années, tu voul{1:SHORTANSWER:=us} absolument avoir gain de cause.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10123  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (12)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+D’abord, il d{1:SHORTANSWER:=ut} le remplacer, puis il fall{1:SHORTANSWER:=ut} trouver une nouvelle solution.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10126  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (13)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Désirées, chéries, les deux petites filles avaient s{1:SHORTANSWER:=u} s’épanouir malgré leur handicap.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10128  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (14)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Ces résultats, on peut vraiment le dire, ils les ont voul{1:SHORTANSWER:=us}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10130  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (15)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Ce spectacle a été perç{1:SHORTANSWER:=u} comme une provocation.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10103  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Ma chère enfant, tu grand{1:SHORTANSWER:=is} si vite.
+<p class="post_tat"><br></p><p class="post_tat">Note : 1 énoncé sur 15. L’aspect aléatoire de l’affichage peut faire s’afficher à plusieurs reprises le même énoncé.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10105  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Les patients ont été guér{1:SHORTANSWER:=is} grâce à ce nouveau traitement.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10107  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Après avoir encouragé les coureurs, tout le village les a accueill{1:SHORTANSWER:=is} les bras ouverts.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10109  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it, </i>soit&nbsp;-<i>u</i>, <i>-us</i>&nbsp;ou -<i>ut</i>, soit encore <i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Aussitôt, il sent{1:SHORTANSWER:=it} l’odeur de la cannelle envahir ses narines.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10111  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+À cette époque, j’avais fourn{1:SHORTANSWER:=i} le matériel pour l’expérience.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10113  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat"></p>Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:&nbsp;<p><br></p><p>Combien sont part{1:SHORTANSWER:=is} pour ne jamais revenir.</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10115  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Soudain, tu aperç{1:SHORTANSWER:=us} au loin le nuage de fumée que tu attendais.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10117  -->
+  <question type="cloze">
+    <name>
+      <text>I IS IT et U US UT - niveau 3 (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec soit -<i>i</i>, -<i>is</i>&nbsp;ou -<i>it,&nbsp;</i>soit&nbsp;-<i>u</i>,&nbsp;<i>-us</i>&nbsp;ou -<i>ut</i>, soit encore&nbsp;<i>-ie</i>&nbsp;ou&nbsp;<i>-ies</i>, -<i>ue</i>&nbsp;ou -<i>ues</i>, en fonction de l’accord requis du participe passé&nbsp;:</p>
+Les milliers de cannettes qui ont été b{1:SHORTANSWER:=ues} pendant le festival vont être récupérées pour créer une sculpture.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez eu des difficultés, revoyez les différentes fiches dont cet exercice est une application.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/Impératif confusion avec présent ind. ou subj.</text>
+
+    </category>
+  </question>
+
+<!-- question: 10290  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Hé ! Toi ! {1:SHORTANSWER:=Porte} (porter) ce carton en salle de réunion.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10292  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (11)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:SHORTANSWER:=Finis} (finir) ce que tu es en train de faire et {1:SHORTANSWER:=rejoins} (rejoindre) nous.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10295  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (12)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Tu {1:SHORTANSWER:=arrêtes} (arrêter) tout de suite.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10297  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (13)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Il faudrait que tu {1:SHORTANSWER:=saches} (savoir) mieux réagir.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10299  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (14)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:SHORTANSWER:=Sache} (savoir) que je ne changerai pas d’avis.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10301  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (15)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p> 
+Il est souhaitable que tu l’{1:SHORTANSWER:=aies} (avoir) à l’œil.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10303  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (16)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:SHORTANSWER:=Aie} (avoir) conscience que cela ne sera pas facile.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>L'impératif de <i>avoir </i>est <i>aie</i>.</p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10273  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:SHORTANSWER:=Rends}-moi (rendre) ce service, s’il te plaît, c’est important.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10275  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:SHORTANSWER:=Dépêche}-toi (dépêcher) d’avancer dans tes recherches pour que nous puissions publier.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10277  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:SHORTANSWER:=Pense} (penser) à déposer le dossier aujourd’hui, sinon il sera trop tard.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10279  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>{1:SHORTANSWER:=secoue}-toi (secouer) ! Tu {1:SHORTANSWER:=ranges} (ranger) ta chambre immédiatement.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10282  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Que tu {1:SHORTANSWER:=prennes} (prendre) la parole me semble une bonne idée.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10284  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:SHORTANSWER:=Envoie} (envoyer) ces informations à notre collègue.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10286  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+{1:SHORTANSWER:=Prends} (prendre) donc en considération ce que je vais te dire.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10288  -->
+  <question type="cloze">
+    <name>
+      <text>Impératif confusion avec présent ind. ou subj. (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Il est temps que tu {1:SHORTANSWER:=comprennes} (comprendre) le fonctionnement de ce laboratoire.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/rai et rais - exercice</text>
+
+    </category>
+  </question>
+
+<!-- question: 10305  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez la phrase suivante :</p>Avant de commencer à vous le présenter dans les détails, j’{1:SHORTANSWER:=aimerais} (aimer) remercier tous ceux qui ont contribué à la réussite de ce projet.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Dans cette phrase, la personne qui parle annonce qu'elle retarde le moment de commencer... elle emploie donc le conditionnel pour atténuer. Remplacez par <i>nous</i>&nbsp;: <i>avant de commencer, nous aimerions remercier...</i>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10323  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant :</p>
+D’ici une huitaine de jours, je {1:MULTICHOICE:=serai~serais} en mesure de vous répondre.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Le -r- typique de ces deux temps permet de les reconnaître. Pour le morphème de personne proprement dit (ai ou ais), voir aussi la fiche et les exercices concernant l&rsquo;homophonie ai, aie, aies, ait, es, est.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 12726  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (11)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p><p class="pre_tat">J’ai déjà des rendez-vous mardi 28, je ne {1:MULTICHOICE:pourrais~=pourrai} pas être là aux créneaux que tu me proposes.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Le -r- typique de ces deux temps permet de les reconnaître. Pour le morphème de personne proprement dit (ai ou ais), voir aussi la fiche et les exercices concernant l’homophonie ai, aie, aies, ait, es, est.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 12728  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (12)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p><p class="pre_tat">Pour notre rencontre, les deux premiers jeudis proposés sont pour moi impossibles parce que je&nbsp;{1:MULTICHOICE:participerais~=participerai} à ces dates à des réunions d'information.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Le -r- typique de ces deux temps permet de les reconnaître. Pour le morphème de personne proprement dit (ai ou ais), voir aussi la fiche et les exercices concernant l’homophonie ai, aie, aies, ait, es, est.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10307  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez la phrase suivantes :</p>Pour que nous puissions avancer ensemble et prendre une décision éclairée, je {1:MULTICHOICE:=rappellerai~rappellerais}, dans un premier temps, les attendus du dossier.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Dans cette phrase, la personne qui parle annonce ce qu'elle va commencer par faire, c'est-à-dire rappeler les attendus du dossier. C'est donc un futur.<p>Si vous remplacez par la personne <i>nous</i>, vous voyez que vous choisissez le futur : <i>dans un premier temps, nous rappellerons </i>(et non <i>nous rappellerions).</i></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10309  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant :</p>
+S’il avait fallu trouver un financement entièrement public, je ne me {1:SHORTANSWER:=présenterais} (présenter) pas aujourd’hui devant vous pour ce premier bilan.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Le -r- typique de ces deux temps permet de les reconnaître. Pour le morphème de personne proprement dit (ai ou ais), voir aussi la fiche et les exercices concernant l&rsquo;homophonie ai, aie, aies, ait, es, est.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10311  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez la phrase suivante :</p>
+Si je tenais compte du seul avis de la commune, je ne {1:MULTICHOICE:pourrai~=pourrais} octroyer cette aide à votre organisme.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[La phrase est hypothétique, et l'hypothèse est à l'imparfait, c'est donc bien un conditionnel qu'il faut écrire. Transposez la phrase avec <i>vous</i>&nbsp;par exemple : <i>si vous teniez compte..., vous ne pourriez octroyer...</i>&nbsp;]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10313  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant :</p>
+Dès que vous serez arrivé à Toronto, je {1:SHORTANSWER:=prendrai} (prendre) contact avec l’ambassade pour vous faire connaître.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Le -r- typique de ces deux temps permet de les reconnaître. Pour le morphème de personne proprement dit (ai ou ais), voir aussi la fiche et les exercices concernant l&rsquo;homophonie ai, aie, aies, ait, es, est.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10315  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez la phrase suivante :</p>Il m'a promis de m'aider à résoudre le problème de mathématique. S’il ne le fait pas, j’{1:MULTICHOICE:=irai~irais} frapper à d’autres portes.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[La phrase contient un hypothèse au présent (<i>s'il ne le fait pas</i>), le verbe <i>aller</i>&nbsp;se met donc au futur.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10317  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez la phrase suivante :</p>J'aurais besoin de vote avis sur le dossier en cours. Aussi {1:SHORTANSWER:=souhaiterais}-je (souhaiter) vivement vous rencontrer.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Dans cette phrase, la personne qui parle nuance son propos : elle souhaite vraiment rencontrer la personne, mais présente ce souhait comme atténué, plus poli.&nbsp;<p><br></p><p>Pour savoir comment choisir la terminaison qui convient à la première personne, voir aussi la fiche et les exercices concernant l’homophonie ai, aie, aies, ait, es, est.</p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10319  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant :</p>
+Si cela se révèle exact, j’{1:MULTICHOICE:=aurai~aurais} fait une grave erreur.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Le -r- typique de ces deux temps permet de les reconnaître. Pour le morphème de personne proprement dit (ai ou ais), voir aussi la fiche et les exercices concernant l&rsquo;homophonie ai, aie, aies, ait, es, est.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10321  -->
+  <question type="cloze">
+    <name>
+      <text>rai et rais - exercice (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant :</p>
+J’{1:MULTICHOICE:aurai~=aurais} apprécié que vous vous comportiez différemment.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Le -r- typique de ces deux temps permet de les reconnaître. Pour le morphème de personne proprement dit (ai ou ais), voir aussi la fiche et les exercices concernant l&rsquo;homophonie ai, aie, aies, ait, es, est.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/U US UT - niveau 1</text>
+
+    </category>
+  </question>
+
+<!-- question: 10449  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>Autrefois, elle avait conn{1:SHORTANSWER:=u} un homme délicieux, nommé Guillaume.
+<p class="post_tat"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i>&nbsp;pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10467  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Je l’avais à peine vend{1:SHORTANSWER:=u} que j’ai regretté sa perte.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i>&nbsp;pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10451  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Peut-être conn{1:SHORTANSWER:=ut}-il à cette occasion l’amour véritable.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i>&nbsp;pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10453  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Conn{1:SHORTANSWER:=u} ou non, quelle différence au fond ?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i>&nbsp;pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10455  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Après ces années fastueuses, tu conn{1:SHORTANSWER:=us} une période de vaches maigres.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i>&nbsp;pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10457  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Perd{1:SHORTANSWER:=u} au plus profond du bois, il craignait de ne pas retrouver son chemin avant la tombée du jour.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i>&nbsp;pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10459  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Pendant plus de dix ans, il véc{1:SHORTANSWER:=ut} ainsi à l’écart.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i>&nbsp;pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10461  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Comment as-tu s{1:SHORTANSWER:=u} pour le dossier Crebant ?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i>&nbsp;pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10463  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Un peu après, tu voul{1:SHORTANSWER:=us} rompre avec cette phase de ton existence.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i> pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10465  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 1 (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant&nbsp;:</p>
+Percl{1:SHORTANSWER:=us} de rhumatisme, il ne marchait plus.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, et après avoir revu les fiches sur l’accord du participe passé, passez à U/US/UT niveau 2 où le participe passé en -<i>u</i>&nbsp;pourra connaître différents accords.]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/1. La Conjugaison/U US UT - niveau 2</text>
+
+    </category>
+  </question>
+
+<!-- question: 10429  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (1)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec&nbsp;<i>-u,</i>&nbsp;-<i>us</i>&nbsp;ou -<i>ut,</i>&nbsp;ou le cas échéant avec -<i>ue</i>, -<i>ues</i>, en fonction des règles d’accord du participe passé&nbsp;:</p>Ils sont conn{1:SHORTANSWER:=us} à travers tout l’Ouest.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice  I / IS / IT et U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10447  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (10)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec&nbsp;<i>-u,</i>&nbsp;-<i>us</i>&nbsp;ou -<i>ut,</i>&nbsp;ou le cas échéant avec -<i>ue</i>, -<i>ues</i>, en fonction des règles d’accord du participe passé&nbsp;:</p>
+Les évadées auraient été v{1:SHORTANSWER:=ues} à une quinzaine de kilomètres d’ici.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice  I / IS / IT et U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10431  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (2)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec&nbsp;<i>-u,</i>&nbsp;-<i>us</i>&nbsp;ou -<i>ut,</i>&nbsp;ou le cas échéant avec -<i>ue</i>, -<i>ues</i>, en fonction des règles d’accord du participe passé&nbsp;:</p>
+Bien conn{1:SHORTANSWER:=us} des collectionneurs, ces timbres atteignent des sommes faramineuses.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice  I / IS / IT et U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10433  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec&nbsp;<i>-u,</i>&nbsp;-<i>us</i>&nbsp;ou -<i>ut,</i>&nbsp;ou le cas échéant avec -<i>ue</i>, -<i>ues</i>, en fonction des règles d’accord du participe passé&nbsp;:</p>
+Quant à ses trois amies, elle les avait conn{1:SHORTANSWER:=ues} à l’adolescence, dans un camp de vacances.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice  I / IS / IT et U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10435  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (4)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec&nbsp;<i>-u,</i>&nbsp;-<i>us</i>&nbsp;ou -<i>ut,</i>&nbsp;ou le cas échéant avec -<i>ue</i>, -<i>ues</i>, en fonction des règles d’accord du participe passé&nbsp;:</p>
+Cette femme est bien conn{1:SHORTANSWER:=ue} des services.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice  I / IS / IT et U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10437  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (5)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec <i>-u,&nbsp;</i>-<i>us</i> ou -<i>ut</i>,&nbsp;ou le cas échéant avec -<i>ue</i>, -<i>ues</i>, en fonction des règles d’accord du participe passé&nbsp;:</p>
+Tu b{1:SHORTANSWER:=us} en une nuit plusieurs bouteilles de prix patiemment acquises par ton père.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l’exercice  I / IS / IT et U / US / UT - niveau 3</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10439  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (6)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec&nbsp;<i>-u,</i>&nbsp;-<i>us</i>&nbsp;ou -<i>ut,</i>&nbsp;ou le cas échéant avec -<i>ue</i>, -<i>ues</i>, en fonction des règles d’accord du participe passé&nbsp;:</p>
+À peine mises sur la table, ces bouteilles avaient déjà été b{1:SHORTANSWER:=ues}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice  I / IS / IT et U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10441  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (7)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec <i>-u,</i>&nbsp;-<i>us</i> ou -<i>ut,</i>&nbsp;ou le cas échéant avec -<i>ue</i>, -<i>ues</i>, en fonction des règles d’accord du participe passé&nbsp;:</p>
+Depuis sa mutation, elle est complètement perd{1:SHORTANSWER:=ue}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l’exercice  I / IS / IT et U / US / UT - niveau 3.</text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10443  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (8)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec&nbsp;<i>-u,</i>&nbsp;-<i>us</i>&nbsp;ou -<i>ut,</i>&nbsp;ou le cas échéant avec -<i>ue</i>, -<i>ues</i>, en fonction des règles d’accord du participe passé&nbsp;:</p>
+Malgré la fatigue qui obscurcissait son jugement, elle perç{1:SHORTANSWER:=ut} dans le ton de sa voix quelque chose de définitif.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice  I / IS / IT et U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 10445  -->
+  <question type="cloze">
+    <name>
+      <text>U US UT - niveau 2 (9)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p class="pre_tat">Complétez le texte suivant avec U ou US ou UT ou le cas échéant avec UE, UES, en fonction des règles d’accord du participe passé&nbsp;:</p>
+Dans le cas contraire, j’ai aussi prév{1:SHORTANSWER:=u} une porte de sortie.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Si vous avez obtenu une bonne réponse pour tous les énoncés, passez à l&rsquo;exercice  I / IS / IT et U / US / UT - niveau 3]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <tags>
+      <tag><text>1. La Conjugaison</text>
+</tag>
+      <tag><text>Vedrenne</text>
+</tag>
+    </tags>
+  </question>
+
+</quiz>
